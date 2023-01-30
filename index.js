@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 const apiData = require("./data.json");
 
-app.get("/ healers", (req,res) => {
+app.get("/api/healers", (req,res) => {
   res.send(apiData);
 });
 
